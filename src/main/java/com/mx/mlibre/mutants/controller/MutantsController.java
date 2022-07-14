@@ -3,7 +3,6 @@ package com.mx.mlibre.mutants.controller;
 
 
 import java.util.Date;
-import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -16,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mx.mlibre.mutants.beans.DnaTypesDto;
 import com.mx.mlibre.mutants.beans.StatsResponse;
-import com.mx.mlibre.mutants.beans.StatsVerify;
 import com.mx.mlibre.service.MutantsService;
 import com.mx.mlibre.service.StatsService;
 
